@@ -100,3 +100,30 @@ footer {
     text-align: center;
     margin-top: 4%;
 }
+
+/* style responsive pour mobile */
+@media screen and (max-width: 768px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .menu {
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: 9%;
+    }
+
+    .article {
+        width: 100%;
+    }
+
+    .info {
+        width: 100%;
+        max-width: 300px;
+    }
+}
